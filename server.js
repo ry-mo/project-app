@@ -25,7 +25,7 @@ app.get('/', async (req, res) => {
 //Step 2
 app.get("/checkout.html", async (req, res) =>  {
   const intent = await stripe.paymentIntents.create({
-  amount: 1099,
+  amount: 1200,
   currency: 'usd',
   // Verify your integration in this guide by including this parameter
   metadata: {integration_check: 'accept_a_payment'},
