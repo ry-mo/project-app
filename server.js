@@ -33,7 +33,7 @@ app.get("/checkout.html", async (req, res) =>  {
   res.render('checkout', { client_secret: intent.client_secret });
 });        
         
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log('Running on port 3000');
 });
 
