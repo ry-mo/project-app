@@ -27,7 +27,7 @@ npm run start
 ## Friction Log
 
 - [Bad] To start, the anchor links provided in the Project Spec do not work correctly, all the links take you to the same page and same location on that page: https://stripe.com/docs/payments/accept-a-payment?integration=elements
-- [Good] Stripe's Develop office hours videos we're extremely helpful during this process and to just help me get oriented. Props to CJ Avilla and Thomas!
+- [Good] Stripe's Developer office hours videos we're extremely helpful during this process and to just help me get oriented. Props to CJ Avilla and Thomas!
 - [Bad] I beleive that the code samples provided in the Custom Payment Flow documentation as well as in the Annotated Code Tutorial could have been better commented to explain what was happening within more of the actual code.
 - [Good] The PaymentIntents State diagram was very helpful in understanding how the PaymentIntent implentation would work. However, it should also be incorporated into the Annotated Code Tutorial version of the guide where it is missing.
 - [Bad] When encountering parts of the implementation where the developer would have to input their own code within Stripe's snippets could have been more obvious. For "instance const intent = // ... Fetch or create the PaymentIntent" was a bit easy to miss.
