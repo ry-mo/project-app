@@ -1,20 +1,26 @@
-Ryan Moran - Hot Dog Pin Project
+# Ryan Moran - Hot Dog Pin Project
 
 - This project was built with a simple HTML frontend and Node backend, using <a href="https://glitch.com/" target="_blank">Glitch!</a>
 - I started with a simple hello-express app (a simple Node app built on Express).
 - You can check out the live app <a href="https://ryan-pm-project.glitch.me" target="_blank">here!</a>
 
-How to check this project out:
+## How to check this project out:
 
 1. Download the project and unzip
 2. In your terminal cd into the project folder
-3. npm i
-4. npm run start
+3. Next we have to fetch all of the necessary packages for you to run the app on your machine. In your terminal enter: npm i
+```
+npm i
+```
+4. Now we're ready to run the app! In your terminal enter: npm run start
+```
+npm run start
+```
 5. Open localhost:3000 in your browser
 6. Select the hot dog image or buy button
 7. Insert test card information and select Pay
 
-Friction Log
+## Friction Log
 
 - [Bad] To start, the anchor links provided in the Project Spec do not work correctly, all the links take you to the same page and same location on that page: https://stripe.com/docs/payments/accept-a-payment?integration=elements
 - [Good] Stripe's Develop office hours videos we're extremely helpful during this process and to just help me get oriented. Props to CJ Avilla and Thomas!
