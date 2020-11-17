@@ -9,13 +9,17 @@
 1. Download the project and unzip
 2. In your terminal cd into the project folder
 3. Next we have to fetch all of the necessary packages for you to run the app on your machine. In your terminal enter: npm i
+
 ```
 npm i
 ```
+
 4. Now we're ready to run the app! In your terminal enter: npm run start
+
 ```
 npm run start
 ```
+
 5. Open localhost:3000 in your browser
 6. Select the hot dog image or buy button
 7. Insert test card information and select Pay
@@ -38,3 +42,5 @@ npm run start
 - [Bad] If I have my region (bottom left of page) set to something other than the US, it should change the currency in the code to the currency associated with that region to make it easier for engineers to work in their native/home/local currency. For instance, if I'm implementing from the UK it should be set as "currency: 'gbp',"
 - [Bad] Some links within the guide open in a new active tab while others open in the current tab which was frustrating. For instance, clicking on the "Client Secret API" link opened the page up in my current window and when I pressed back in my broswer I was back at the top of the page and lost my place.
 - [Bad] Accessibility: I could not get any screen readers to correctly identify the Stripe form fields and there seems to be a lack of information regarding this issue and how accessible stripe implementations/elements are out of the box for visually impaired end users.
+
+Overall this was a great experience, as I was able to successfully implement the product with minimal hiccups (once I decided on scaffolding/framework). It also has me interested in learning more about node and I might give this another try as a React app as well. I hope my feedback on my experience was helpful and please let me know if you have any questions. Thank you!
