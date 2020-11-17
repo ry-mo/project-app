@@ -11,13 +11,15 @@ How to check this project out:
 2. npm i
 3. npm run start
 4. Open localhost:3000 in your browser
+5. Select the hot dog image or buy button
+6. Insert test card information and select Pay
 
 - Friction Log
 
-1. [Bad] To start, the anchor links provided in the Project Spec do not work correctly, all the links take you to https://stripe.com/docs/payments/accept-a-payment?integration=elements
+1. [Bad] To start, the anchor links provided in the Project Spec do not work correctly, all the links take you to the same page and same location on that page: https://stripe.com/docs/payments/accept-a-payment?integration=elements
 2. [Good] Stripe's Develop office hours videos we're extremely helpful during this process and to just help me get oriented. Props to CJ Avilla and Thomas!
 3. [Bad] I beleive that the code samples provided in the Custom Payment Flow documentation as well as in the Annotated Code Tutorial could have been better commented to explain what was happening within more of the actual code.
-4. [Good] The PaymentIntents State diagram was very helpful in understanding how the PaymentIntent implentation would work.
+4. [Good] The PaymentIntents State diagram was very helpful in understanding how the PaymentIntent implentation would work. However, it should also be incorporated into the Annotated Code Tutorial version of the guide where it is missing.
 5. [Bad] When encountering parts of the implementation where the developer would have to input their own code within Stripe's snippets could have been more obvious. For "instance const intent = // ... Fetch or create the PaymentIntent" was a bit easy to miss.
 6. [Bad] Accessibility options: in your code examples and overall in your developer guides/experiences it may be best to provide alternate color experiences for color blind users.
 7. [Bad] During the Webhook implementation, the documentation assumed the user is testing the webhook locally and not in a cloud environment. It would be helpful as more testing and implementation is done in cloud environments to provide additional help and details for that use case.
@@ -27,4 +29,6 @@ How to check this project out:
 11. [Bad] The developer documentation for this implementation seemed to only be available in English.
 12. [Good] Seeing the "You've successfully completed this step. View in Dashboard." message in certain sections was very helpful and validating. I imagine this is even more helpful in larger implementations. 
 13. [Bad] The main guide (https://stripe.com/docs/payments/accept-a-payment?integration=elements) isn't responsive. This was frustrating as I wanted to have the guide open on half my screen with my editor on the other half. This forced me to scroll horizontally in the guide constanly. Also the right rail table of contents takes up a lot of room and you should be able to close or minimize it.
-14. [Bad] If I have my region (bottom left of page setting) set to something other than the US, it should change the currency in the code to the currency associated with that region to make it easier for engineers to work in their native/home/local currency. For instance, if I'm implementing from the UK it should be set as "currency: 'gbp',"
+14. [Bad] If I have my region (bottom left of page) set to something other than the US, it should change the currency in the code to the currency associated with that region to make it easier for engineers to work in their native/home/local currency. For instance, if I'm implementing from the UK it should be set as "currency: 'gbp',"
+15. [Bad] Some links within the guide open in a new active tab while others open in the current tab which was frustrating. For instance, clicking on the "Client Secret API" link opened the page up in my current window and when I pressed back in my broswer I was back at the top of the page and lost my place. 
+16. [Bad] Accessibility: I could not get any screen readers to correctly identify the Stripe form fields and there seems to be a lack of information regarding this issue and how accessible stripe implementations/elements are out of the box for visually impaired end users. 
